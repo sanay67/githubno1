@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: cursive;
+    background-image: linear-gradient(to right, darkblue, blue, lightblue );
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr ;
+    gap: 10px;
+    grid-template-rows: 80px;
+    color: blueviolet;
+
+}
+ 
+.navigation{
+    grid-column:1/4;
+}
+
+.img img{
+    max-width:100%;
+    
+}
+
+   
+h2{
+    padding: 10px;
+    text-align: center;
+}
+.main{
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0;
+    
+    
+}
+.main form{
+    padding: 10px;
+    line-height: 50px;
+}
+form button,.previous button,.next button{
+    background-color: royalblue;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 30%;
+}

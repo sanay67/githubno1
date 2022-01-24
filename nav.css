@@ -1,0 +1,66 @@
+.navcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    /* padding: 10px; */
+    font-size: 14px;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-padding-right: 50px;
+}
+.btn1 button{
+    border: solid white 1px;
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.btn2 button{
+    border: solid rgb(224, 169, 17) 1px;
+    background-color: rgb(224, 169, 17);
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.btn1{
+    padding-right: 20px;
+}
+.navimage{
+    width: 50px;
+    height: 50px;
+    border: thin solid white;
+   
+}
+.navimage img{
+    max-width: 100%;
+    max-height:100%;
+}
+form input{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border: thin solid white;
+    border-radius: 5px;
+}
+form{
+    padding-right: 10px;
+}
